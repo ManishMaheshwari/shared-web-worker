@@ -1,5 +1,5 @@
 Quick POC for Shared Web Workers.
-Shared Web Worker gets killed the moment there are zero open tabs for the domain.
+Shared Web Worker gets killed the moment there are zero open tabs for the domain. This is expected on multi-page apps, when page navigation happens.
 
 
 1. Run `ServerApplication.java` from IDE
